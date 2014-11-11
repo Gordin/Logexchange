@@ -18,17 +18,17 @@
 
 <link rel="stylesheet" href="http://dbis.rwth-aachen.de/gadgets/query-visualization/CSS/masterGadget.css">
 
-<script type="text/javascript" src="http://evaluation.gord.in:8888/d3.v3.min.js"></script>
-<script type="text/javascript" src="http://evaluation.gord.in:8888/jsnetworkx.js"></script>
-<script type="text/javascript" src="http://evaluation.gord.in:8888/legend.js"></script>
-<script type="text/javascript" src="http://evaluation.gord.in:8888/Gadgets.js"></script>
-<script type="text/javascript" src="http://evaluation.gord.in:8888/network.js"></script>
+<script type="text/javascript" src="https://raw.githubusercontent.com/Gordin/Logexchange/master/js/d3.v3.min.js"></script>
+<script type="text/javascript" src="https://raw.githubusercontent.com/Gordin/Logexchange/master/js/jsnetworkx.js"></script>
+<script type="text/javascript" src="https://raw.githubusercontent.com/Gordin/Logexchange/master/js/legend.js"></script>
+<script type="text/javascript" src="https://raw.githubusercontent.com/Gordin/Logexchange/master/js/Gadgets.js"></script>
+<script type="text/javascript" src="https://raw.githubusercontent.com/Gordin/Logexchange/master/js/network.js"></script>
 
 <script type="text/javascript">
 	selector = null;
 	gadgets.util.registerOnLoadHandler(gadget_init);
 </script>
-<link rel="stylesheet" href="http://evaluation.gord.in:8888/network.css">
+<link rel="stylesheet" href="https://raw.githubusercontent.com/Gordin/Logexchange/master/css/network.css">
 <div id="NetworkControlDiv">
     <form action="javascript:void(0);" class="loginForm">
         <fieldset>

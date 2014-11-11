@@ -16,7 +16,7 @@
 <Content type="html"><![CDATA[
 <script type="text/javascript" src="http://dbis.rwth-aachen.de/gadgets/query-visualization/JavaScript/openapp.js"></script>
 
-<link rel="stylesheet" href="http://evaluation.gord.in:8888/selector.css">
+<link rel="stylesheet" href="https://raw.githubusercontent.com/Gordin/Logexchange/master/css/selector.css">
 
 
 <div id="loginDiv">
@@ -154,15 +154,15 @@
   </form>
 </div>
 
-<script type="text/javascript" src="http://evaluation.gord.in:8888/jquery.min.js"></script>
-<script type="text/javascript" src="http://evaluation.gord.in:8888/scripts/strophe.js"></script>
-<script type="text/javascript" src="http://evaluation.gord.in:8888/scripts/strophe.disco.js"></script>
-<script type="text/javascript" src="http://evaluation.gord.in:8888/scripts/strophe.x.js"></script>
-<script type="text/javascript" src="http://evaluation.gord.in:8888/scripts/strophe.cmds.js"></script>
-<script type="text/javascript" src="http://evaluation.gord.in:8888/scripts/strophe.eventlog.js"></script>
-<script type="text/javascript" src="http://evaluation.gord.in:8888/scripts/strophe.logexchange.js"></script>
-<script type="text/javascript" src="http://evaluation.gord.in:8888/Gadgets.js"></script>
-<script type="text/javascript" src="http://evaluation.gord.in:8888/selector.js"></script>
+<script type="text/javascript" src="https://raw.githubusercontent.com/Gordin/Logexchange/master/js/jquery.min.js"></script>
+<script type="text/javascript" src="https://raw.githubusercontent.com/Gordin/Logexchange/master/js/strophe.js"></script>
+<script type="text/javascript" src="https://raw.githubusercontent.com/Gordin/Logexchange/master/js/strophe.disco.js"></script>
+<script type="text/javascript" src="https://raw.githubusercontent.com/Gordin/Logexchange/master/js/strophe.x.js"></script>
+<script type="text/javascript" src="https://raw.githubusercontent.com/Gordin/Logexchange/master/js/strophe.cmds.js"></script>
+<script type="text/javascript" src="https://raw.githubusercontent.com/Gordin/Logexchange/master/js/strophe.eventlog.js"></script>
+<script type="text/javascript" src="https://raw.githubusercontent.com/Gordin/Logexchange/master/js/strophe.logexchange.js"></script>
+<script type="text/javascript" src="https://raw.githubusercontent.com/Gordin/Logexchange/master/js/Gadgets.js"></script>
+<script type="text/javascript" src="https://raw.githubusercontent.com/Gordin/Logexchange/master/js/selector.js"></script>
 
 <script type="text/javascript">
 	selector = null;
