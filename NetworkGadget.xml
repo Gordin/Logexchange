@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module>
+<ModulePrefs
+    title="Logexchange Network"
+    author="A. Guth"
+    author_email="guth@dbis.rwth-aachen.de"
+    description="No description"
+    height="900"
+    width="600"
+    >
+	<Require feature="pubsub"/>
+	<Require feature="setprefs"/>
+	<Require feature="dynamic-height"/>
+	<Require feature="settitle"/>
+</ModulePrefs>
+<Content type="html"><![CDATA[
+<script type="text/javascript" src="http://dbis.rwth-aachen.de/gadgets/query-visualization/JavaScript/openapp.js"></script>
+
+<link rel="stylesheet" href="http://dbis.rwth-aachen.de/gadgets/query-visualization/CSS/masterGadget.css">
+
+<script type="text/javascript" src="http://evaluation.gord.in:8888/d3.v3.min.js"></script>
+<script type="text/javascript" src="http://evaluation.gord.in:8888/jsnetworkx.js"></script>
+<script type="text/javascript" src="http://evaluation.gord.in:8888/legend.js"></script>
+<script type="text/javascript" src="http://evaluation.gord.in:8888/Gadgets.js"></script>
+<script type="text/javascript" src="http://evaluation.gord.in:8888/network.js"></script>
+
+<script type="text/javascript">
+	selector = null;
+	gadgets.util.registerOnLoadHandler(gadget_init);
+</script>
+<link rel="stylesheet" href="http://evaluation.gord.in:8888/network.css">
+<div id="NetworkControlDiv">
+    <form action="javascript:void(0);" class="loginForm">
+        <fieldset>
+            <a class="tooltip"><img style="float:right;" src="images/mark.png"><span><h4>Usage Help</h4>The size of nodes and links is determined by the amount of received and sent stanzas.<br><br>XMPP connections are shown in black.<br>Direct p2p connections are shown in red.<br>Nodes can be dragged with the mouse and will stick to the dragged position. Stickied Nodes will have a red border.<br>Double-clicking will release them again.<br><br>The Graph can be zoomed with the Mousewheel.<br>Holding Shift while zooming will use semantic zoom instead. (changes distances instead of size)<br><br>The timeline on the bottom can be used to limit the graph to logging data in a selected time period.<br> </span></a>
+            <legend>Stanzalog Filter</legend>
+            <div>
+              <!-- <button type="button" id="drawrick">Show Network</button> -->
+              <div title="Physical: Includes nodes a stanza passes through (usually servers)&#xD;Logical: Shows links between sender and receiver" class="tooltip" style="display: inline-block;">
+              <label for="viz_select">Network style</label>
+              <select id="viz_select" name="viz_select" size=1 disabled>
+                <option id="viz_physical" value="viz_physical" selected>Physical</option>
+                <option id="viz_logical" value="viz_logical">Logical</option>
+              </select>
+              </div>
+              <button title="Opens/Closes the Import and Export buttons" id="imex_button">Import/Export Data</button>
+            </div>
+            <div title='Sets the maximum number of nodes/links that should be shown. Will scale with if the maximum number if set to "All"'>
+              <div style="display: inline-block;">
+                <label id="node_limit_label" for="node_thresh">Node Limit: All</label>
+                <input id="node_thresh_slider" type="range" min="0" max="100" value="0" name="node_thresh" disabled></input>
+              </div>
+              <div style="display: inline-block;">
+                <label id="line_limit_label" for="link_thresh">Link Limit: All</label>
+                <input id="line_thresh_slider" type="range" min="0" max="100" value="0" name="link_thresh" disabled></input>
+              </div>
+            </div>
+            <div id="export" style="display: none;">
+              <div>
+                Export current view as:
+                <button id="export_button">SVG</button>
+                <button id="gexf_button">GEXF</button>
+              </div>
+              <div>
+                Export log data as JSON:
+                <button id="json_export">Export</button>
+                Import JSON:
+                <input title="The data will be automatically imported after selection!" type="file" id="file" name="Import Session" accept="application/json"/>
+              </div>
+            </div>
+            <!-- <button type="button" id="jsnx_button">JSNX</button> -->
+        </fieldset>
+    </form>
+</div>
+  <div id="jsnx"></div>
+  <div id="network"></div>
+  <div id="legend"></div>
+<a id="export_link"></a>
+]]></Content>
+</Module>

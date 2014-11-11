@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module>
+<ModulePrefs
+    title="Logexchange Statistics"
+    author="A. Guth"
+    author_email="guth@dbis.rwth-aachen.de"
+    description="No description"
+    height="600"
+    width="600"
+    >
+	<Require feature="pubsub"/>
+	<Require feature="setprefs"/>
+	<Require feature="dynamic-height"/>
+	<Require feature="settitle"/>
+</ModulePrefs>
+<Content type="html"><![CDATA[
+<script type="text/javascript" src="http://dbis.rwth-aachen.de/gadgets/query-visualization/JavaScript/openapp.js"></script>
+
+<link rel="stylesheet" href="http://dbis.rwth-aachen.de/gadgets/query-visualization/CSS/masterGadget.css">
+<link rel="stylesheet" href="http://evaluation.gord.in:8888/jqueryui/jquery-ui.min.css">
+<link rel="stylesheet" href="http://evaluation.gord.in:8888/rickshaw.min.css">
+<link rel="stylesheet" href="http://evaluation.gord.in:8888/graph.css">
+<link rel="stylesheet" href="http://evaluation.gord.in:8888/detail.css">
+<link rel="stylesheet" href="http://evaluation.gord.in:8888/extensions.css">
+<link rel="stylesheet" href="http://evaluation.gord.in:8888/stats.css">
+
+<script type="text/javascript" src="http://evaluation.gord.in:8888/d3.v3.min.js"></script>
+<script type="text/javascript" src="http://evaluation.gord.in:8888/d3.layout.min.js"></script>
+<script type="text/javascript" src="http://evaluation.gord.in:8888/jquery.min.js"></script>
+<script type="text/javascript" src="http://evaluation.gord.in:8888/jqueryui/jquery-ui.min.js"></script>
+<script type="text/javascript" src="http://evaluation.gord.in:8888/rickshaw.min.js"></script>
+<script type="text/javascript" src="http://evaluation.gord.in:8888/legend.js"></script>
+<script type="text/javascript" src="http://evaluation.gord.in:8888/Gadgets.js"></script>
+<script type="text/javascript" src="http://evaluation.gord.in:8888/statistics.js"></script>
+
+<script type="text/javascript">
+	selector = null;
+	gadgets.util.registerOnLoadHandler(gadget_init);
+</script>
+<div style="float:left;" id="waiting">Waiting for Data…</div>
+<a class="tooltip"><img style="float:right;" src="images/mark.png"><span><h4>Usage Help</h4>Hovering near a datapoint in the graph will display its exact time and value.<br><br>The scale on the left is used for memory usage statistics.<br>The scale on the right is used for counts (i.e. connections, users, etc.)<br><br>The slider below the graph has handles on both sides that can be used to restrict the graph to a selected time period.<br><br>The legend at the bottom can be used to select displayed data series.<br>Hovering over a value will fade out all other displayed series<br>Clicking on the name of a series toggles showing only this or all series.<br>Clicking on a checkmark will toggle only the visibility of the corresponding data series.<br> </span></a>
+  <div id="chart_container">
+    <div id="axis0"></div>
+    <div id="chart"></div>
+    <div id="axis1"></div>
+    <div style="display: none;" id="axis2"></div>
+    <div id="preview"></div>
+  </div>
+  <div id="legend"></div>
+
+]]></Content>
+</Module>
