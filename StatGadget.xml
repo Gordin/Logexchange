@@ -27,7 +27,7 @@
 <script type="text/javascript" src="https://raw.githubusercontent.com/Gordin/Logexchange/master/js/d3.v3.min.js"></script>
 <script type="text/javascript" src="https://raw.githubusercontent.com/Gordin/Logexchange/master/js/d3.layout.min.js"></script>
 <script type="text/javascript" src="https://raw.githubusercontent.com/Gordin/Logexchange/master/js/jquery.min.js"></script>
-<script type="text/javascript" src="https://raw.githubusercontent.com/Gordin/Logexchange/master/js/jqueryui/jquery-ui.min.js"></script>
+<script type="text/javascript" src="https://raw.githubusercontent.com/Gordin/Logexchange/master/js/jquery-ui.min.js"></script>
 <script type="text/javascript" src="https://raw.githubusercontent.com/Gordin/Logexchange/master/js/rickshaw.min.js"></script>
 <script type="text/javascript" src="https://raw.githubusercontent.com/Gordin/Logexchange/master/js/legend.js"></script>
 <script type="text/javascript" src="https://raw.githubusercontent.com/Gordin/Logexchange/master/js/Gadgets.js"></script>
