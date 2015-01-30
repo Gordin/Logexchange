@@ -154,15 +154,15 @@
   </form>
 </div>
 
-<script type="text/javascript" src="https://raw.githubusercontent.com/Gordin/Logexchange/master/js/jquery.min.js"></script>
-<script type="text/javascript" src="https://raw.githubusercontent.com/Gordin/Logexchange/master/js/strophe.js"></script>
-<script type="text/javascript" src="https://raw.githubusercontent.com/Gordin/Logexchange/master/js/strophe.disco.js"></script>
-<script type="text/javascript" src="https://raw.githubusercontent.com/Gordin/Logexchange/master/js/strophe.x.js"></script>
-<script type="text/javascript" src="https://raw.githubusercontent.com/Gordin/Logexchange/master/js/strophe.cmds.js"></script>
-<script type="text/javascript" src="https://raw.githubusercontent.com/Gordin/Logexchange/master/js/strophe.eventlog.js"></script>
-<script type="text/javascript" src="https://raw.githubusercontent.com/Gordin/Logexchange/master/js/strophe.logexchange.js"></script>
-<script type="text/javascript" src="https://raw.githubusercontent.com/Gordin/Logexchange/master/js/Gadgets.js"></script>
-<script type="text/javascript" src="https://raw.githubusercontent.com/Gordin/Logexchange/master/js/selector.js"></script>
+<script type="text/javascript" src="https://rawgit.com/Gordin/Logexchange/master/js/jquery.min.js"></script>
+<script type="text/javascript" src="https://rawgit.com/Gordin/Logexchange/master/js/strophe.js"></script>
+<script type="text/javascript" src="https://rawgit.com/Gordin/Logexchange/master/js/strophe.disco.js"></script>
+<script type="text/javascript" src="https://rawgit.com/Gordin/Logexchange/master/js/strophe.x.js"></script>
+<script type="text/javascript" src="https://rawgit.com/Gordin/Logexchange/master/js/strophe.cmds.js"></script>
+<script type="text/javascript" src="https://rawgit.com/Gordin/Logexchange/master/js/strophe.eventlog.js"></script>
+<script type="text/javascript" src="https://rawgit.com/Gordin/Logexchange/master/js/strophe.logexchange.js"></script>
+<script type="text/javascript" src="https://rawgit.com/Gordin/Logexchange/master/js/Gadgets.js"></script>
+<script type="text/javascript" src="https://rawgit.com/Gordin/Logexchange/master/js/selector.js"></script>
 
 <script type="text/javascript">
 	selector = null;
