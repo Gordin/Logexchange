@@ -16,7 +16,7 @@
 <Content type="html"><![CDATA[
 <script type="text/javascript" src="http://dbis.rwth-aachen.de/gadgets/query-visualization/JavaScript/openapp.js"></script>
 
-<link rel="stylesheet" href="https://raw.githubusercontent.com/Gordin/Logexchange/master/css/selector.css">
+<link rel="stylesheet" href="https://rawgit.com/Gordin/Logexchange/master/css/selector.css">
 
 
 <div id="loginDiv">
