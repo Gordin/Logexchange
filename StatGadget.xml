@@ -17,21 +17,21 @@
 <script type="text/javascript" src="http://dbis.rwth-aachen.de/gadgets/query-visualization/JavaScript/openapp.js"></script>
 
 <link rel="stylesheet" href="http://dbis.rwth-aachen.de/gadgets/query-visualization/CSS/masterGadget.css">
-<link rel="stylesheet" href="https://raw.githubusercontent.com/Gordin/Logexchange/master/css/jquery-ui.min.css">
-<link rel="stylesheet" href="https://raw.githubusercontent.com/Gordin/Logexchange/master/css/rickshaw.min.css">
-<link rel="stylesheet" href="https://raw.githubusercontent.com/Gordin/Logexchange/master/css/graph.css">
-<link rel="stylesheet" href="https://raw.githubusercontent.com/Gordin/Logexchange/master/css/detail.css">
-<link rel="stylesheet" href="https://raw.githubusercontent.com/Gordin/Logexchange/master/css/extensions.css">
-<link rel="stylesheet" href="https://raw.githubusercontent.com/Gordin/Logexchange/master/css/stats.css">
+<link rel="stylesheet" href="https://rawgit.com/Gordin/Logexchange/master/css/jquery-ui.min.css">
+<link rel="stylesheet" href="https://rawgit.com/Gordin/Logexchange/master/css/rickshaw.min.css">
+<link rel="stylesheet" href="https://rawgit.com/Gordin/Logexchange/master/css/graph.css">
+<link rel="stylesheet" href="https://rawgit.com/Gordin/Logexchange/master/css/detail.css">
+<link rel="stylesheet" href="https://rawgit.com/Gordin/Logexchange/master/css/extensions.css">
+<link rel="stylesheet" href="https://rawgit.com/Gordin/Logexchange/master/css/stats.css">
 
-<script type="text/javascript" src="https://raw.githubusercontent.com/Gordin/Logexchange/master/js/d3.v3.min.js"></script>
-<script type="text/javascript" src="https://raw.githubusercontent.com/Gordin/Logexchange/master/js/d3.layout.min.js"></script>
-<script type="text/javascript" src="https://raw.githubusercontent.com/Gordin/Logexchange/master/js/jquery.min.js"></script>
-<script type="text/javascript" src="https://raw.githubusercontent.com/Gordin/Logexchange/master/js/jquery-ui.min.js"></script>
-<script type="text/javascript" src="https://raw.githubusercontent.com/Gordin/Logexchange/master/js/rickshaw.min.js"></script>
-<script type="text/javascript" src="https://raw.githubusercontent.com/Gordin/Logexchange/master/js/legend.js"></script>
-<script type="text/javascript" src="https://raw.githubusercontent.com/Gordin/Logexchange/master/js/Gadgets.js"></script>
-<script type="text/javascript" src="https://raw.githubusercontent.com/Gordin/Logexchange/master/js/statistics.js"></script>
+<script type="text/javascript" src="https://rawgit.com/Gordin/Logexchange/master/js/d3.v3.min.js"></script>
+<script type="text/javascript" src="https://rawgit.com/Gordin/Logexchange/master/js/d3.layout.min.js"></script>
+<script type="text/javascript" src="https://rawgit.com/Gordin/Logexchange/master/js/jquery.min.js"></script>
+<script type="text/javascript" src="https://rawgit.com/Gordin/Logexchange/master/js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="https://rawgit.com/Gordin/Logexchange/master/js/rickshaw.min.js"></script>
+<script type="text/javascript" src="https://rawgit.com/Gordin/Logexchange/master/js/legend.js"></script>
+<script type="text/javascript" src="https://rawgit.com/Gordin/Logexchange/master/js/Gadgets.js"></script>
+<script type="text/javascript" src="https://rawgit.com/Gordin/Logexchange/master/js/statistics.js"></script>
 
 <script type="text/javascript">
 	selector = null;
